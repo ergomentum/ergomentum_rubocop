@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    ergomentum_rubocop (0.1.0)
+    ergomentum_rubocop (0.1.1)
       rubocop (~> 1.13)
       rubocop-performance (~> 1.11)
       rubocop-rails (~> 2.9)

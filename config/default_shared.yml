@@ -29,6 +29,7 @@ Metrics/BlockLength:
     - gems/**/*_spec.rb
     - spec/**/*
     - config/routes.rb
+    - "*.gemspec"
 Metrics/ClassLength:
   Enabled: false
 Metrics/MethodLength:

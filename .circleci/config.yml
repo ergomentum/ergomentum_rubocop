@@ -1,0 +1,12 @@
+version: 2.1
+workflows:
+  version: 2
+  build:
+    jobs:
+    - ruby/build:
+        context:
+        - ergomentum-ruby-gems
+        codeclimate_reporter_id: ''
+        ruby_version: 3.0.1
+orbs:
+  ruby: ergomentum/ruby-orb@0.1.0

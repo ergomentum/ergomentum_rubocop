@@ -21,17 +21,17 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
   spec.required_ruby_version = ">= 3.0.0"
 
-  spec.add_dependency "rubocop", "~> 1.13"
-  spec.add_dependency "rubocop-performance", "~> 1.11"
-  spec.add_dependency "rubocop-rails", "~> 2.9"
+  spec.add_dependency "rubocop"
+  spec.add_dependency "rubocop-performance"
+  spec.add_dependency "rubocop-rails"
 
-  spec.add_development_dependency "byebug", "~> 11.1.3"
-  spec.add_development_dependency "rake", "~> 13.0.1"
-  spec.add_development_dependency "rspec", "~> 3.10.0"
-  spec.add_development_dependency "rspec_junit_formatter", "~> 0.4.1"
+  spec.add_development_dependency "byebug"
+  spec.add_development_dependency "rake"
+  spec.add_development_dependency "rspec"
+  spec.add_development_dependency "rspec_junit_formatter"
   spec.add_development_dependency "rubocop-rake"
   spec.add_development_dependency "rubocop-rspec"
-  spec.add_development_dependency "simplecov", "~> 0.21.2"
-  spec.add_development_dependency "test-prof", "~> 1.0.2"
+  spec.add_development_dependency "simplecov"
+  spec.add_development_dependency "test-prof"
   spec.add_development_dependency "webmock"
 end

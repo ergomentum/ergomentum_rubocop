@@ -11,7 +11,7 @@ Rails/AttributeDefaultBlockValue: # (new in 2.9)
 Rails/Delegate:
   Enabled: false
 Rails/EnvironmentVariableAccess: # (new in 2.10)
-  Enabled: true
+  Enabled: false
 Rails/FilePath:
   EnforcedStyle: arguments
 Rails/FindById:

@@ -14,8 +14,6 @@ Gem::Specification.new do |spec|
   spec.homepage = "https://www.ergomentum.de/"
   spec.licenses = "Nonstandard"
 
-  spec.metadata["allowed_push_host"] = "https://rubygems.pkg.github.com/ergomentum"
-
   spec.files = Dir.glob("{lib,config}/**/*") + %w[README.md Gemfile ergomentum_rubocop.gemspec]
 
   spec.require_paths = ["lib"]

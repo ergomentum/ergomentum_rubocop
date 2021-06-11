@@ -6,11 +6,10 @@ workflows:
       - ruby/build-gem:
           context:
             - ergomentum-ruby-gems
-          codeclimate_reporter_id: 3d850b2940ffab1feebed8459246a1841c4d65b57c954216b8345819965b1e8b
           ruby_version: 3.0.1
       - ruby/run-rubocop:
           context:
             - ergomentum-ruby-gems
           ruby_version: 3.0.1
 orbs:
-  ruby: ergomentum/ruby-orb@dev:de4eae3
+  ruby: ergomentum/ruby-orb@1.0.0

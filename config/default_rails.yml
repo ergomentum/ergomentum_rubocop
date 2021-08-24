@@ -4,17 +4,25 @@ require:
 
 Rails/ActiveRecordCallbacksOrder:
   Enabled: true
+Rails/AddColumnIndex: # (new in 2.11)
+  Enabled: true
 Rails/AfterCommitOverride:
   Enabled: true
 Rails/AttributeDefaultBlockValue: # (new in 2.9)
   Enabled: true
 Rails/Delegate:
   Enabled: false
+Rails/EagerEvaluationLogMessage: # (new in 2.11)
+  Enabled: true
 Rails/EnvironmentVariableAccess: # (new in 2.10)
   Enabled: false
+Rails/ExpandedDateRange: # (new in 2.11)
+  Enabled: true
 Rails/FilePath:
   EnforcedStyle: arguments
 Rails/FindById:
+  Enabled: true
+Rails/I18nLocaleAssignment: # (new in 2.11)
   Enabled: true
 Rails/Inquiry:
   Enabled: true
@@ -37,6 +45,8 @@ Rails/ShortI18n:
 Rails/SquishedSQLHeredocs:
   Enabled: true
 Rails/TimeZoneAssignment: # (new in 2.10)
+  Enabled: true
+Rails/UnusedIgnoredColumns: # (new in 2.11)
   Enabled: true
 Rails/WhereEquals: # (new in 2.9)
   Enabled: true

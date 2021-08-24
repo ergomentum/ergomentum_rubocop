@@ -12,4 +12,4 @@ workflows:
             - ergomentum-ruby-gems
           ruby_version: 3.0.1
 orbs:
-  ruby: ergomentum/ruby-orb@1.0.0
+  ruby: ergomentum/ruby-orb@1.1.0

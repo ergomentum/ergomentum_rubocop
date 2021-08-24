@@ -10,20 +10,19 @@ https://circleci.com/gh/ergomentum/ergomentum_rubocop)
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'ergomentum_rubocop'
+gem "ergomentum_rubocop"
 ```
 
 And then execute:
 
-    $ bundle install
-
-Or install it yourself as:
-
-    $ gem install ergomentum_rubocop
+```bash
+bundle install
+```
 
 ## Usage
 
-rubocop.yml
+`rubocop.yml`:
+
 ```yml
 inherit_gem:
   ergomentum_rubocop:

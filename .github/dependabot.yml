@@ -1,0 +1,21 @@
+# https://docs.github.com/en/github/administering-a-repository/configuration-options-for-dependency-updates
+
+version: 2
+registries:
+  ruby-github:
+    type: rubygems-server
+    url: https://rubygems.pkg.github.com
+    token: ${{secrets.BUNDLE_RUBYGEMS__PKG__GITHUB__COM}}
+updates:
+- package-ecosystem: "bundler"
+  directory: "/"
+  registries:
+  - ruby-github
+  schedule:
+    interval: "daily"
+  rebase-strategy: "disabled"
+- package-ecosystem: "npm"
+  directory: "/"
+  schedule:
+    interval: "daily"
+  rebase-strategy: "disabled"

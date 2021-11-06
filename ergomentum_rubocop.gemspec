@@ -21,7 +21,7 @@ Gem::Specification.new do |spec|
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://github.com/ergomentum/ergomentum_rubocop/"
-  spec.metadata["changelog_uri"] = "https://github.com/ergomentum/ergomentum_rubocop/CHANGELOG.md"
+  spec.metadata["changelog_uri"] = "https://github.com/ergomentum/ergomentum_rubocop/blob/main/CHANGELOG.md"
 
   spec.add_dependency "rubocop", "~> 1.22.3"
   spec.add_dependency "rubocop-performance", "~> 1.12.0"

@@ -9,6 +9,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
+## [0.8.0] - 2022-01-14
+
 * Update rails to v3.1.0
 * Update dependencies
 

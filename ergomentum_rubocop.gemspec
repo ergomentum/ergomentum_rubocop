@@ -36,4 +36,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "simplecov", "~> 0.21.2"
   spec.add_development_dependency "test-prof", "~> 1.0.7"
   spec.add_development_dependency "webmock", "~> 3.14.0"
+  spec.metadata["rubygems_mfa_required"] = "true"
 end

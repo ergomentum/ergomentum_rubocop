@@ -1,4 +1,2 @@
 inherit_from: default_shared.yml
 
-Gemspec/DateAssignment: # (new in 1.10)
-  Enabled: true

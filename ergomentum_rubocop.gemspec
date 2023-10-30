@@ -23,11 +23,11 @@ Gem::Specification.new do |spec|
   spec.metadata["source_code_uri"] = "https://github.com/ergomentum/ergomentum_rubocop/"
   spec.metadata["changelog_uri"] = "https://github.com/ergomentum/ergomentum_rubocop/blob/main/CHANGELOG.md"
 
-  spec.add_dependency "rubocop", "~> 1.29"
-  spec.add_dependency "rubocop-performance", "~> 1.13"
-  spec.add_dependency "rubocop-rails", "~> 2.14"
+  spec.add_dependency "rubocop", "~> 1.57"
+  spec.add_dependency "rubocop-performance", "~> 1.19"
+  spec.add_dependency "rubocop-rails", "~> 2.22"
   spec.add_dependency "rubocop-rake", "~> 0.6"
-  spec.add_dependency "rubocop-rspec", "~> 2.10"
+  spec.add_dependency "rubocop-rspec", "~> 2.25"
 
   spec.add_development_dependency "byebug", "~> 11.1"
   spec.add_development_dependency "rake", "~> 13.0"

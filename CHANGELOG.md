@@ -8,33 +8,46 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Changed
+
+## [0.11.0] - 2023-12-17
+
+### Changed
+
+- Update Ruby
+- Update defaults
+
 ## [0.10.0] - 2023-10-30
-* Update dependencies
+
+### Changed
+
+- Update dependencies
 
 ## [0.8.0] - 2022-01-14
 
-* Update rails to v3.1.0
-* Update dependencies
+### Changed
+
+- Update rails to v3.1.0
+- Update dependencies
 
 ## [0.7.0] - 2022-01-14
 
 ### Changed
 
-* Update dependencies
+- Update dependencies
 
 ## [0.6.1] - 2021-11-06
 
 ### Fixed
 
-* Fix changelog link in metadata.
+- Fix changelog link in metadata.
 
 ## [0.6.0] - 2021-11-06
 
 ### Added
 
-* CHANGELOG.md
+- CHANGELOG.md
 
 ### Changed
 
-* Apply conventions to gemspec.
-* Update and pin dependencies to eliminate warnings in gem build.
+- Apply conventions to gemspec.
+- Update and pin dependencies to eliminate warnings in gem build.

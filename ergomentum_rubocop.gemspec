@@ -29,12 +29,5 @@ Gem::Specification.new do |spec|
   spec.add_dependency "rubocop-rake", "~> 0.6"
   spec.add_dependency "rubocop-rspec", "~> 2.25"
 
-  spec.add_development_dependency "byebug", "~> 11.1"
-  spec.add_development_dependency "rake", "~> 13.0"
-  spec.add_development_dependency "rspec", "~> 3.11"
-  spec.add_development_dependency "rspec_junit_formatter", "~> 0.5"
-  spec.add_development_dependency "simplecov", "~> 0.21"
-  spec.add_development_dependency "test-prof", "~> 1.0"
-  spec.add_development_dependency "webmock", "~> 3.14"
   spec.metadata["rubygems_mfa_required"] = "true"
 end

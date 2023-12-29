@@ -1,8 +1,10 @@
 PATH
   remote: .
   specs:
-    ergomentum_rubocop (0.14.0)
+    ergomentum_rubocop (0.15.0)
       rubocop (~> 1.57)
+      rubocop-capybara (~> 2.19)
+      rubocop-factory_bot (~> 2.24)
       rubocop-performance (~> 1.19)
       rubocop-rails (~> 2.22)
       rubocop-rake (~> 0.6)
@@ -85,10 +87,10 @@ GEM
       rubocop (~> 1.41)
     rubocop-factory_bot (2.24.0)
       rubocop (~> 1.33)
-    rubocop-performance (1.20.0)
+    rubocop-performance (1.20.1)
       rubocop (>= 1.48.1, < 2.0)
       rubocop-ast (>= 1.30.0, < 2.0)
-    rubocop-rails (2.23.0)
+    rubocop-rails (2.23.1)
       activesupport (>= 4.2.0)
       rack (>= 1.1)
       rubocop (>= 1.33.0, < 2.0)

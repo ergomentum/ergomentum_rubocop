@@ -24,6 +24,8 @@ Gem::Specification.new do |spec|
   spec.metadata["changelog_uri"] = "https://github.com/ergomentum/ergomentum_rubocop/blob/main/CHANGELOG.md"
 
   spec.add_dependency "rubocop", "~> 1.57"
+  spec.add_dependency "rubocop-capybara", "~> 2.19"
+  spec.add_dependency "rubocop-factory_bot", "~> 2.24"
   spec.add_dependency "rubocop-performance", "~> 1.19"
   spec.add_dependency "rubocop-rails", "~> 2.22"
   spec.add_dependency "rubocop-rake", "~> 0.6"

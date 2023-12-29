@@ -9,6 +9,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
+## [0.15.0] - 2023-12-29
+
+### Added
+
+- rubocop-capybara
+- rubocop-factory_bot
+
+### Changed
+
+- Update gems
+
 ## [0.14.0] - 2023-12-29
 
 ### Added

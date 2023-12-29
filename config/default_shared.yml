@@ -3,6 +3,7 @@ require:
   - rubocop-performance
   - rubocop-capybara
   - rubocop-factory_bot
+  - rubocop-rake
   - rubocop-rspec
 AllCops:
   Exclude:

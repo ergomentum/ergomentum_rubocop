@@ -6,10 +6,10 @@ workflows:
       - ruby/build-gem:
           context:
             - ergomentum-ruby-gems
-          ruby_version: 3.2.0
+          ruby_version: 3.3.5
       - ruby/run-rubocop:
           context:
             - ergomentum-ruby-gems
-          ruby_version: 3.2.0
+          ruby_version: 3.3.5
 orbs:
   ruby: ergomentum/ruby-orb@1.8.0

@@ -9,6 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
+## [0.17.0] - 2024-10-26
+
+### Changed
+
+- Rename RSpecRails cops
+
 ## [0.16.0] - 2024-10-26
 
 ### Changed

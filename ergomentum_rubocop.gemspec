@@ -23,13 +23,14 @@ Gem::Specification.new do |spec|
   spec.metadata["source_code_uri"] = "https://github.com/ergomentum/ergomentum_rubocop/"
   spec.metadata["changelog_uri"] = "https://github.com/ergomentum/ergomentum_rubocop/blob/main/CHANGELOG.md"
 
-  spec.add_dependency "rubocop", "~> 1.57"
-  spec.add_dependency "rubocop-capybara", "~> 2.19"
-  spec.add_dependency "rubocop-factory_bot", "~> 2.24"
-  spec.add_dependency "rubocop-performance", "~> 1.19"
-  spec.add_dependency "rubocop-rails", "~> 2.22"
-  spec.add_dependency "rubocop-rake", "~> 0.6"
-  spec.add_dependency "rubocop-rspec", "~> 2.25"
+  spec.add_dependency "rubocop"
+  spec.add_dependency "rubocop-capybara"
+  spec.add_dependency "rubocop-factory_bot"
+  spec.add_dependency "rubocop-performance"
+  spec.add_dependency "rubocop-rails"
+  spec.add_dependency "rubocop-rake"
+  spec.add_dependency "rubocop-rspec"
+  spec.add_dependency "rubocop-rspec_rails"
 
   spec.metadata["rubygems_mfa_required"] = "true"
 end

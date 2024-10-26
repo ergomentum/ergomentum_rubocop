@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    ergomentum_rubocop (0.17.0)
+    ergomentum_rubocop (0.17.1)
       rubocop
       rubocop-capybara
       rubocop-factory_bot

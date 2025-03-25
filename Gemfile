@@ -5,7 +5,7 @@ source "https://rubygems.org"
 # Specify your gem's dependencies in omniauth-shipcloud.gemspec
 gemspec
 
-gem "byebug", "~> 11.1"
+gem "byebug", "~> 12.0"
 gem "rake", "~> 13.0"
 gem "rspec", "~> 3.11"
 gem "rspec_junit_formatter", "~> 0.5"

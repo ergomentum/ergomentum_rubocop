@@ -1,27 +1,26 @@
 ---
-require:
+plugins:
   - rubocop-performance
   - rubocop-capybara
   - rubocop-factory_bot
   - rubocop-rake
   - rubocop-rspec
 AllCops:
+  NewCops: enable
   Exclude:
     - vendor/**/*
     - node_modules/**/*
     - bin/*
     - db/schema.rb
-Capybara/ClickLinkOrButtonStyle: # new in 2.19
+Capybara/RSpec/MatchStyle: # new in 2.17
   Enabled: true
-Capybara/MatchStyle: # new in 2.17
-  Enabled: true
-Capybara/NegationMatcher: # new in 2.14
+Capybara/RSpec/NegationMatcher: # new in 2.14
   Enabled: true
 Capybara/SpecificActions: # new in 2.14
   Enabled: true
 Capybara/SpecificFinders: # new in 2.13
   Enabled: true
-Capybara/SpecificMatcher: # new in 2.12
+Capybara/RSpec/SpecificMatcher: # new in 2.12
   Enabled: true
 Capybara/RedundantWithinFind: # new in 2.20
   Enabled: true
@@ -169,7 +168,7 @@ Naming/BlockForwarding: # new in 1.24
   Enabled: true
 Naming/InclusiveLanguage: # (new in 1.18)
   Enabled: true
-Naming/PredicateName:
+Naming/PredicatePrefix:
   Exclude:
     - spec/**/*
   ForbiddenPrefixes:
@@ -271,8 +270,6 @@ RSpec/SortMetadata: # new in 2.14
 RSpec/SpecFilePathFormat: # new in 2.24
   Enabled: true
 RSpec/SpecFilePathSuffix: # new in 2.24
-  Enabled: true
-RSpec/StringAsInstanceDoubleConstant: # new in 3.1
   Enabled: true
 RSpec/SubjectDeclaration: # new in 2.5
   Enabled: true

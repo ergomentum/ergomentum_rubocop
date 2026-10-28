@@ -7,7 +7,30 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.18.0] - 2026-10-27
+
 ### Changed
+
+- Update RuboCop to 1.92 and all extension gems (rubocop-rails 2.38, rubocop-rspec 3.10,
+  rubocop-performance 1.27, rubocop-capybara 3.1, rubocop-rspec_rails 2.33).
+- Bound the RuboCop dependencies in the gemspec (e.g. `~> 1.89`) instead of open-ended
+  requirements.
+- Migrate the configuration to the RuboCop plugin API (`require:` → `plugins:`).
+- Set `AllCops: NewCops: enable` so newly added cops are active by default.
+- Rename `Naming/PredicateName` to `Naming/PredicatePrefix`.
+- Rename the moved RuboCop-Capybara cops to the `Capybara/RSpec/*` namespace
+  (`MatchStyle`, `NegationMatcher`, `SpecificMatcher`).
+
+### Removed
+
+- `Capybara/ClickLinkOrButtonStyle` (removed in rubocop-capybara 3.x).
+- `RSpec/StringAsInstanceDoubleConstant` (removed in rubocop-rspec 3.x, replaced by
+  `RSpec/VerifiedDoubleReference`, which is already enabled).
+- CircleCI and CodeClimate configuration (CI runs on GitHub Actions now).
+
+### Fixed
+
+- `bin/console` required a leftover from another project (`omniauth/shipcloud`).
 
 ## [0.17.1] - 2024-10-26
 
@@ -28,78 +51,3 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Update Ruby
 - Update gems
 - Update defaults
-
-## [0.15.0] - 2023-12-29
-
-### Added
-
-- rubocop-capybara
-- rubocop-factory_bot
-
-### Changed
-
-- Update gems
-
-## [0.14.0] - 2023-12-29
-
-### Added
-
-- Add rubocop-capybara
-- Add rubocop-factory_bot
-- Add rubocop-rspec
-
-## [0.13.0] - 2023-12-20
-
-### Changed
-
-- Update defaults
-
-## [0.12.0] - 2023-12-20
-
-### Changed
-
-- Update dependencies
-- Update defaults
-
-## [0.11.0] - 2023-12-17
-
-### Changed
-
-- Update Ruby
-- Update defaults
-
-## [0.10.0] - 2023-10-30
-
-### Changed
-
-- Update dependencies
-
-## [0.8.0] - 2022-01-14
-
-### Changed
-
-- Update rails to v3.1.0
-- Update dependencies
-
-## [0.7.0] - 2022-01-14
-
-### Changed
-
-- Update dependencies
-
-## [0.6.1] - 2021-11-06
-
-### Fixed
-
-- Fix changelog link in metadata.
-
-## [0.6.0] - 2021-11-06
-
-### Added
-
-- CHANGELOG.md
-
-### Changed
-
-- Apply conventions to gemspec.
-- Update and pin dependencies to eliminate warnings in gem build.

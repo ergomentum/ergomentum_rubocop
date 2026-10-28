@@ -14,6 +14,9 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
+          # Latest patch release of the 3.3 series – older patches are not built
+          # for the current runner images (see ruby/setup-ruby).
+          ruby-version: "3.3"
           bundler-cache: true
       - name: Run RuboCop
         run: bundle exec rubocop
